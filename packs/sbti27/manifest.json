@@ -1,0 +1,46 @@
+{
+  "id": "sbti27",
+  "title": "SBTI 27 Pack",
+  "subtitle": "A runtime-loaded pack with split static files for questions, personas, rules, and images.",
+  "description": "The app loads this pack via public/packs/config.json at runtime.",
+  "engine": {
+    "type": "sbti27_pattern",
+    "defaultScorerId": "sbti27_pattern"
+  },
+  "scoring": {
+    "defaultScorerId": "sbti27_pattern",
+    "availableScorers": [
+      {
+        "id": "sbti27_pattern",
+        "label": "Standard match",
+        "description": "Match 15 L/M/H dimensions against the persona pattern library."
+      }
+    ]
+  },
+  "home": {
+    "eyebrow": "SBTI 27 TYPE PACK",
+    "catalogTitle": "Result Library",
+    "catalogDescription": "This pack ships 27 persona results, plus separate images and rule files."
+  },
+  "quiz": {
+    "specialQuestionLabel": "Special",
+    "hiddenDimensionLabel": "Hidden dimension"
+  },
+  "result": {
+    "eyebrow": "YOUR MAIN RESULT",
+    "posterTitle": "Poster",
+    "posterDescription": "Poster images are loaded from the pack image directory.",
+    "dimensionTitle": "Dimensions",
+    "dimensionDescription": "Dimension text and thresholds come from static pack files.",
+    "secondaryTitle": "Nearby Matches",
+    "secondaryDescription": "Other personas with a close overall pattern."
+  },
+  "files": {
+    "dimensions": "dimensions.json",
+    "questions": "questions.json",
+    "specialQuestions": "special-questions.json",
+    "personas": "personas.json",
+    "rules": "rules.json",
+    "assets": "assets.json"
+  }
+}

@@ -2,6 +2,11 @@
   "activePackId": "honglou36",
   "packs": [
     {
+      "id": "sbti27",
+      "label": "SBTI 27 Pack",
+      "manifest": "packs/sbti27/manifest.json"
+    },
+    {
       "id": "honglou36",
       "label": "honglou36 Pack",
       "manifest": "packs/honglou36/manifest.json"

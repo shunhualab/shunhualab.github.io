@@ -1,0 +1,10 @@
+{
+  "activePackId": "honglou36",
+  "packs": [
+    {
+      "id": "honglou36",
+      "label": "honglou36 Pack",
+      "manifest": "packs/honglou36/manifest.json"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "drink_gate_q1",
+    "kind": "gate_secret",
+    "special": true,
+    "prompt": "抄检大观园前夜，你无意间刷到一条足以让全府炸锅的隐藏剧情。你第一反应更像？",
+    "options": [
+      { "text": "没看见，我先保平安。", "value": 1 },
+      { "text": "先存脑内，不急着发言。", "value": 2 },
+      { "text": "这瓜太大了，我必须继续追更。", "value": 3 },
+      { "text": "我不是来看戏的，我是来救场的。", "value": 4 }
+    ]
+  },
+  {
+    "id": "drink_gate_q2",
+    "kind": "gate_trigger",
+    "special": true,
+    "prompt": "真有人问你要不要把这府里的体面和烂账一次性点破，你更可能说？",
+    "options": [
+      { "text": "知道归知道，我不当那个第一个出头的人。", "value": 1 },
+      { "text": "今天谁都别拦我，我非把这宅门从头骂到尾。", "value": 2 }
+    ]
+  }
+]

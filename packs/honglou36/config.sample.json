@@ -1,0 +1,15 @@
+{
+  "activePackId": "honglou36",
+  "packs": [
+    {
+      "id": "sbti27",
+      "label": "SBTI 27人格测试",
+      "manifest": "packs/sbti27/manifest.json"
+    },
+    {
+      "id": "honglou36",
+      "label": "测试你是红楼梦中的谁",
+      "manifest": "packs/honglou36/manifest.json"
+    }
+  ]
+}

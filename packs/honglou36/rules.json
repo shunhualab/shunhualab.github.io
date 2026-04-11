@@ -1,0 +1,94 @@
+{
+  "dimensionOrder": [
+    "S1",
+    "S2",
+    "S3",
+    "E1",
+    "E2",
+    "E3",
+    "A1",
+    "A2",
+    "A3",
+    "Ac1",
+    "Ac2",
+    "Ac3",
+    "So1",
+    "So2",
+    "So3"
+  ],
+  "levelThresholds": [
+    { "maxScore": 3, "level": "L" },
+    { "maxScore": 4, "level": "M" },
+    { "maxScore": 6, "level": "H" }
+  ],
+  "distanceScale": 30,
+  "fallbackSimilarityThreshold": 55,
+  "normalTypes": [
+    { "code": "BAOYU", "pattern": "HML-MHL-HLL-LML-MLM" },
+    { "code": "DAIYU", "pattern": "MHL-LHM-MLM-LMM-LHH" },
+    { "code": "BAOCHAI", "pattern": "HHH-HMH-MHH-HHH-MHH" },
+    { "code": "XIFENG", "pattern": "HHH-MMH-LMH-HHH-HHH" },
+    { "code": "XIANGYUN", "pattern": "HMM-HML-HMM-MMM-HLM" },
+    { "code": "TANCHUN", "pattern": "HHH-MMH-MMH-HHH-MHH" },
+    { "code": "YINGCHUN", "pattern": "LML-MML-MHM-LLL-LLH" },
+    { "code": "XICHUN", "pattern": "MHL-MLH-MHH-LMM-LHH" },
+    { "code": "MIAOYU", "pattern": "HHM-MHH-LHH-MMH-LHH" },
+    { "code": "LIWAN", "pattern": "MMH-MLH-MHH-MMH-MHH" },
+    { "code": "QINGWEN", "pattern": "HMH-LHM-MLM-MMH-MML" },
+    { "code": "XIREN", "pattern": "MHM-MMH-MHH-MHH-MHH" },
+    { "code": "PINGER", "pattern": "MHH-MMH-MHH-MHH-MHM" },
+    { "code": "YUANYANG", "pattern": "HHM-MMH-MHH-MHH-MHL" },
+    { "code": "ZIJUAN", "pattern": "MHL-LHM-MMH-MMH-LHM" },
+    { "code": "XIANGLING", "pattern": "MML-MHM-HLM-MMM-MLM" },
+    { "code": "XUEPAN", "pattern": "HML-HLL-LLM-LML-HLL" },
+    { "code": "JIAMU", "pattern": "HHM-MHL-MHH-MMH-HMH" },
+    { "code": "WANGFU", "pattern": "HMH-MMH-MHH-MMH-MMH" },
+    { "code": "KEQING", "pattern": "HMM-HMM-MMM-MMM-MHH" },
+    { "code": "SANJIE", "pattern": "HHL-MHH-MLH-MHH-MHL" },
+    { "code": "ERJIE", "pattern": "MML-LHM-MMH-LMM-MLH" },
+    { "code": "JIALIAN", "pattern": "HMM-MLM-LMH-MMM-HMH" },
+    { "code": "JIAZHENG", "pattern": "HMH-MMH-MHH-MMH-LHH" },
+    { "code": "JIASHE", "pattern": "HML-HLL-LLM-LLM-HML" },
+    { "code": "LIULAO", "pattern": "MHM-MMM-HMH-MHH-HLM" },
+    { "code": "XUEYI", "pattern": "MMH-MMM-MHH-LMM-MMH" },
+    { "code": "XINGFU", "pattern": "LMM-MLH-MLH-LLM-MHH" },
+    { "code": "BAOQIN", "pattern": "HHH-MMH-HMH-MMM-HMH" },
+    { "code": "QIAOJIE", "pattern": "MML-MMH-HMH-LMM-LMH" },
+    { "code": "JIAODA", "pattern": "HHL-LMH-LLH-LHH-HLL" },
+    { "code": "MINGYAN", "pattern": "MHM-MML-MLM-MMH-HLL" },
+    { "code": "XIANGLIAN", "pattern": "HHH-MHH-MLH-MHH-LHH" },
+    { "code": "ZHENSHI", "pattern": "MHH-HMH-MMH-LMH-LHH" },
+    { "code": "YUCUN", "pattern": "HHH-HLH-LHH-HHH-HHH" },
+    { "code": "JIANGHAN", "pattern": "HMM-HMM-MMM-MLM-HMM" }
+  ],
+  "drunkTriggerQuestionId": "drink_gate_q2",
+  "specialQuestionFlow": {
+    "entryQuestionId": "drink_gate_q1",
+    "entryPlacement": "random_gap",
+    "followUpQuestionId": "drink_gate_q2",
+    "followUpWhenValue": 3
+  },
+  "resultCopy": {
+    "defaultModeKicker": "你的主人物",
+    "defaultBadgeTemplate": "匹配度 {similarity}% · 命中 {exact}/{dimensionCount} 维",
+    "defaultSub": "这是当前维度模式下与你最接近的红楼人物画像。",
+    "specialNote": "本测试仅供娱乐。隐藏路线和兜底结果都属于配置内置机制，不构成文学研究、心理诊断或命运预言。",
+    "normalNote": "本测试仅供娱乐，别拿它替代文学批评、相亲审判或人生判决书。"
+  },
+  "overrides": [
+    {
+      "id": "drunk",
+      "resultCode": "JIAODA",
+      "modeKicker": "角门隐藏路线",
+      "badge": "匹配度 100% · 门房预警已触发",
+      "sub": "你不是被常规维度算出来的，你是被一嗓子骂出来的。"
+    },
+    {
+      "id": "fallback_hhhh",
+      "resultCode": "KONGKONG",
+      "modeKicker": "太虚兜底",
+      "badgeTemplate": "常规人物最高匹配仅 {similarity}%",
+      "sub": "你和任何单一角色都不够完全重合，于是系统把你归入了空空道人观察位。"
+    }
+  ]
+}

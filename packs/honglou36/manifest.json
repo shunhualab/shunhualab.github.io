@@ -1,0 +1,46 @@
+{
+  "id": "honglou36",
+  "title": "测试你是红楼梦中的谁",
+  "subtitle": "一套以《红楼梦》人物气质为结果库的运行时测试包。",
+  "description": "本包沿用项目现有 sbti27_pattern 引擎，使用 15 维结构、30 道正式题、2 道隐藏触发题与 36 个常规人物结果。",
+  "engine": {
+    "type": "sbti27_pattern",
+    "defaultScorerId": "sbti27_pattern"
+  },
+  "scoring": {
+    "defaultScorerId": "sbti27_pattern",
+    "availableScorers": [
+      {
+        "id": "sbti27_pattern",
+        "label": "红楼人物匹配",
+        "description": "把 15 个维度的高低模式与红楼梦人物库做整体匹配。"
+      }
+    ]
+  },
+  "home": {
+    "eyebrow": "HONGLOU CHARACTER PACK",
+    "catalogTitle": "人物结果库",
+    "catalogDescription": "这套测试会把你的脾气、边界、情意和处世方式，折算成《红楼梦》里最像你的那个人。"
+  },
+  "quiz": {
+    "specialQuestionLabel": "隐藏题",
+    "hiddenDimensionLabel": "维度已隐藏"
+  },
+  "result": {
+    "eyebrow": "你的红楼人物结果",
+    "posterTitle": "结果海报",
+    "posterDescription": "结果图路径已预留在 assets.json 中，后续补图即可直接接入。",
+    "dimensionTitle": "十五维画像",
+    "dimensionDescription": "维度解释会展示你在红楼式关系、礼法、现实感和掌局力上的整体倾向。",
+    "secondaryTitle": "相近人物",
+    "secondaryDescription": "这些是与你同路但不完全同命的附近角色。"
+  },
+  "files": {
+    "dimensions": "dimensions.json",
+    "questions": "questions.json",
+    "specialQuestions": "special-questions.json",
+    "personas": "personas.json",
+    "rules": "rules.json",
+    "assets": "assets.json"
+  }
+}

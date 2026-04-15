@@ -1,0 +1,46 @@
+﻿{
+  "id": "testlikes36",
+  "title": "测试你喜欢什么测试的测试",
+  "subtitle": "这不是测你是什么人，而是测你爱做什么测试",
+  "description": "基于 sbti27_pattern 引擎的运行时测试包，核心目标是识别你的测试题材偏好。",
+  "engine": {
+    "type": "sbti27_pattern",
+    "defaultScorerId": "sbti27_pattern"
+  },
+  "scoring": {
+    "defaultScorerId": "sbti27_pattern",
+    "availableScorers": [
+      {
+        "id": "sbti27_pattern",
+        "label": "测试题材偏好匹配",
+        "description": "根据作答风格匹配你更偏爱的测试题材。"
+      }
+    ]
+  },
+  "home": {
+    "eyebrow": "TEST LIKES PACK",
+    "catalogTitle": "36种测试题材偏好",
+    "catalogDescription": "结果是你最爱点开的测试类型，而不是你的固定人格标签。"
+  },
+  "quiz": {
+    "specialQuestionLabel": "隐藏题",
+    "hiddenDimensionLabel": "维度已隐藏"
+  },
+  "result": {
+    "eyebrow": "你的测试口味结果",
+    "posterTitle": "结果海报",
+    "posterDescription": "当前使用极简海报设计，保留信息核心表达。",
+    "dimensionTitle": "口味维度",
+    "dimensionDescription": "维度仅用于推断你偏好的测试题材，不用于人格定性。",
+    "secondaryTitle": "你还会爱做的测试",
+    "secondaryDescription": "这些是与你当前口味接近的测试题型。"
+  },
+  "files": {
+    "dimensions": "dimensions.json",
+    "questions": "questions.json",
+    "specialQuestions": "special-questions.json",
+    "personas": "personas.json",
+    "rules": "rules.json",
+    "assets": "assets.json"
+  }
+}

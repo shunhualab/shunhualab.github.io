@@ -1,0 +1,24 @@
+﻿[
+  {
+    "id": "meta_gate_q1",
+    "kind": "meta_gate",
+    "special": true,
+    "prompt": "你做测试最享受哪个环节？",
+    "options": [
+      { "text": "做题过程本身", "value": 1 },
+      { "text": "等结果揭晓那一刻", "value": 2 },
+      { "text": "拿结果和朋友互相调侃", "value": 3 },
+      { "text": "从标题到结果全流程我都上头", "value": 4 }
+    ]
+  },
+  {
+    "id": "meta_gate_q2",
+    "kind": "meta_trigger",
+    "special": true,
+    "prompt": "如果系统说你最喜欢做测试本身，你会？",
+    "options": [
+      { "text": "我只把它当玩笑", "value": 1 },
+      { "text": "认了，我就是测试本体爱好者", "value": 2 }
+    ]
+  }
+]

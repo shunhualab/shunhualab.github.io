@@ -1,5 +1,5 @@
-{
-  "activePackId": "honglou36",
+﻿{
+  "activePackId": "testlikes36",
   "packs": [
     {
       "id": "sbti27",
@@ -7,9 +7,9 @@
       "manifest": "packs/sbti27/manifest.json"
     },
     {
-      "id": "honglou36",
-      "label": "honglou36 Pack",
-      "manifest": "packs/honglou36/manifest.json"
+      "id": "testlikes36",
+      "label": "testlikes36 Pack",
+      "manifest": "packs/testlikes36/manifest.json"
     }
   ]
 }

@@ -1,0 +1,46 @@
+﻿[
+  {"id":"q1","dimensionId":"S1","prompt":"你最容易点开的测试标题是？","options":[{"text":"稳妥型：性格/关系分析","value":1},{"text":"中间型：有梗但不离谱","value":2},{"text":"离谱型：看完就想笑着点进去","value":3}]},
+  {"id":"q2","dimensionId":"S1","prompt":"刷到“你是什么航母/坦克”这种题，你会？","options":[{"text":"划走，太抽象了","value":1},{"text":"先看评论区再决定","value":2},{"text":"必点，这种我最爱","value":3}]},
+
+  {"id":"q3","dimensionId":"S2","prompt":"做测试时你最想得到什么？","options":[{"text":"放松一下就好","value":1},{"text":"有一点被说中","value":2},{"text":"希望被精准命中","value":3}]},
+  {"id":"q4","dimensionId":"S2","prompt":"看到一句“这就是你”时，你通常？","options":[{"text":"当段子看","value":1},{"text":"会对照一下","value":2},{"text":"会认真记下来","value":3}]},
+
+  {"id":"q5","dimensionId":"S3","prompt":"你会不会把测试建议落实到生活？","options":[{"text":"基本不会","value":1},{"text":"挑几条能做的","value":2},{"text":"会当行动清单","value":3}]},
+  {"id":"q6","dimensionId":"S3","prompt":"MBTI/SBTI这类测试在你这里更像？","options":[{"text":"娱乐内容","value":1},{"text":"娱乐+参考","value":2},{"text":"长期复盘工具","value":3}]},
+
+  {"id":"q7","dimensionId":"E1","prompt":"剧情型题目里出现冷场/误会桥段，你会？","options":[{"text":"代入很少","value":1},{"text":"会代入一点","value":2},{"text":"很容易上头","value":3}]},
+  {"id":"q8","dimensionId":"E1","prompt":"“已读不回会不会想太多”这类题你有多爱？","options":[{"text":"不太感兴趣","value":1},{"text":"偶尔会做","value":2},{"text":"这题我熟","value":3}]},
+
+  {"id":"q9","dimensionId":"E2","prompt":"恋爱脑/前任考古类测试，你的态度是？","options":[{"text":"兴趣一般","value":1},{"text":"看标题决定","value":2},{"text":"高频必测","value":3}]},
+  {"id":"q10","dimensionId":"E2","prompt":"乙游男主同款、青春疼痛女主这类题，你会？","options":[{"text":"不太吃这套","value":1},{"text":"偶尔图个乐","value":2},{"text":"这就是我的舒适区","value":3}]},
+
+  {"id":"q11","dimensionId":"E3","prompt":"你更偏爱哪种关系题？","options":[{"text":"贴贴型、亲密型","value":1},{"text":"都能看","value":2},{"text":"边界/独立型","value":3}]},
+  {"id":"q12","dimensionId":"E3","prompt":"“电子围栏、边界感”相关测试，你会？","options":[{"text":"不太会主动点","value":1},{"text":"有时会看","value":2},{"text":"我很爱这类题","value":3}]},
+
+  {"id":"q13","dimensionId":"A1","prompt":"看到“全网最准”标题时你的第一反应？","options":[{"text":"先质疑","value":1},{"text":"先看看评价","value":2},{"text":"先做再说","value":3}]},
+  {"id":"q14","dimensionId":"A1","prompt":"陌生博主发的测试链接你会？","options":[{"text":"很少点","value":1},{"text":"看题面再点","value":2},{"text":"愿意尝试","value":3}]},
+
+  {"id":"q15","dimensionId":"A2","prompt":"你更喜欢哪种出题风格？","options":[{"text":"越离谱越好","value":1},{"text":"有梗但有逻辑","value":2},{"text":"结构清晰、题干规范","value":3}]},
+  {"id":"q16","dimensionId":"A2","prompt":"做测试时你对“题目严谨”有多在意？","options":[{"text":"不太在意","value":1},{"text":"适中就行","value":2},{"text":"挺在意","value":3}]},
+
+  {"id":"q17","dimensionId":"A3","prompt":"你更爱哪类结果？","options":[{"text":"抽象世界观，越脑洞越好","value":1},{"text":"抽象和现实都可","value":2},{"text":"能落地到日常行为","value":3}]},
+  {"id":"q18","dimensionId":"A3","prompt":"“打工人NPC/外卖评论家”这种生活向测试，你觉得？","options":[{"text":"一般","value":1},{"text":"还行","value":2},{"text":"很有共鸣","value":3}]},
+
+  {"id":"q19","dimensionId":"Ac1","prompt":"拿到测试结果后你通常？","options":[{"text":"看完就过","value":1},{"text":"会留一两条建议","value":2},{"text":"会马上调整行为","value":3}]},
+  {"id":"q20","dimensionId":"Ac1","prompt":"你测测试更偏向？","options":[{"text":"图快乐","value":1},{"text":"快乐+参考","value":2},{"text":"找可执行方法","value":3}]},
+
+  {"id":"q21","dimensionId":"Ac2","prompt":"做选择题时你更像？","options":[{"text":"反复纠结","value":1},{"text":"犹豫后能选","value":2},{"text":"凭直觉快速选","value":3}]},
+  {"id":"q22","dimensionId":"Ac2","prompt":"“请盲选”这种题你会？","options":[{"text":"卡住很久","value":1},{"text":"想一会再选","value":2},{"text":"秒选不回头","value":3}]},
+
+  {"id":"q23","dimensionId":"Ac3","prompt":"你做测试常见节奏是？","options":[{"text":"拖到最后才做","value":1},{"text":"想起来就做","value":2},{"text":"一口气连做多套","value":3}]},
+  {"id":"q24","dimensionId":"Ac3","prompt":"测试链接收藏后通常会？","options":[{"text":"长期吃灰","value":1},{"text":"看心情再做","value":2},{"text":"很快清单式做完","value":3}]},
+
+  {"id":"q25","dimensionId":"So1","prompt":"你会在群里主动发测试链接吗？","options":[{"text":"几乎不会","value":1},{"text":"有人提就发","value":2},{"text":"经常主动安利","value":3}]},
+  {"id":"q26","dimensionId":"So1","prompt":"测完结果你会？","options":[{"text":"自己看看就好","value":1},{"text":"对熟人分享","value":2},{"text":"发圈/发帖公开分享","value":3}]},
+
+  {"id":"q27","dimensionId":"So2","prompt":"你愿意把测试结果暴露到什么程度？","options":[{"text":"只自己知道","value":1},{"text":"小范围可见","value":2},{"text":"公开也无所谓","value":3}]},
+  {"id":"q28","dimensionId":"So2","prompt":"别人根据测试结果给你贴标签时，你会？","options":[{"text":"会不适，想收回","value":1},{"text":"看关系和语气","value":2},{"text":"能接梗并反向玩梗","value":3}]},
+
+  {"id":"q29","dimensionId":"So3","prompt":"你写测试分享文案的风格更像？","options":[{"text":"直给、短句、少修饰","value":1},{"text":"适度润色","value":2},{"text":"分场景改写，体面有梗","value":3}]},
+  {"id":"q30","dimensionId":"So3","prompt":"对外发测试结果时你会？","options":[{"text":"原样贴图，不解释","value":1},{"text":"补一句态度","value":2},{"text":"配完整文案和人设语境","value":3}]}
+]

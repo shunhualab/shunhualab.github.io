@@ -1,0 +1,211 @@
+﻿{
+    "dimensionOrder":  [
+                           "S1",
+                           "S2",
+                           "S3",
+                           "E1",
+                           "E2",
+                           "E3",
+                           "A1",
+                           "A2",
+                           "A3",
+                           "Ac1",
+                           "Ac2",
+                           "Ac3",
+                           "So1",
+                           "So2",
+                           "So3"
+                       ],
+    "levelThresholds":  [
+                            {
+                                "maxScore":  3,
+                                "level":  "L"
+                            },
+                            {
+                                "maxScore":  4,
+                                "level":  "M"
+                            },
+                            {
+                                "maxScore":  6,
+                                "level":  "H"
+                            }
+                        ],
+    "distanceScale":  30,
+    "fallbackSimilarityThreshold":  55,
+    "normalTypes":  [
+                        {
+                            "code":  "NANLIANG",
+                            "pattern":  "HMH-HMH-HML-MHM-MHM"
+                        },
+                        {
+                            "code":  "CARRIER",
+                            "pattern":  "HHH-MMH-HMM-HHH-HMH"
+                        },
+                        {
+                            "code":  "TANK",
+                            "pattern":  "MHH-HMH-LHH-HHM-LHM"
+                        },
+                        {
+                            "code":  "LEADER",
+                            "pattern":  "HHH-HHH-MHH-HHH-HHH"
+                        },
+                        {
+                            "code":  "TOKYO",
+                            "pattern":  "HMH-HML-MHM-HMH-HLH"
+                        },
+                        {
+                            "code":  "SEOUL",
+                            "pattern":  "MHM-HHH-HMM-MHM-HMH"
+                        },
+                        {
+                            "code":  "MBTI_LOOP",
+                            "pattern":  "MMH-HML-HMH-MMM-MLH"
+                        },
+                        {
+                            "code":  "SBTI_DEEP",
+                            "pattern":  "HMH-HMH-HHH-HMH-MHH"
+                        },
+                        {
+                            "code":  "CYBER_MOUTH",
+                            "pattern":  "MHM-MMH-MMM-LMM-HMH"
+                        },
+                        {
+                            "code":  "CIRCLE_GHOST",
+                            "pattern":  "LMM-MLH-MLM-LLM-LHH"
+                        },
+                        {
+                            "code":  "READ_LATE",
+                            "pattern":  "LHL-LMH-LMM-LLL-LMH"
+                        },
+                        {
+                            "code":  "RECALLER",
+                            "pattern":  "MHL-LMM-MLH-MML-MHH"
+                        },
+                        {
+                            "code":  "VOICE_FEAR",
+                            "pattern":  "LLH-LHL-LLH-LLL-LHL"
+                        },
+                        {
+                            "code":  "CALL_PANIC",
+                            "pattern":  "LHM-LMM-MML-LLM-LMH"
+                        },
+                        {
+                            "code":  "MEET_MUTE",
+                            "pattern":  "MHM-MLM-MMM-MML-MMH"
+                        },
+                        {
+                            "code":  "WORK_SURVIVE",
+                            "pattern":  "HMH-HMM-MHH-HHM-MHM"
+                        },
+                        {
+                            "code":  "COMMUTE_WARR",
+                            "pattern":  "MMM-MMM-MHM-MMM-MMM"
+                        },
+                        {
+                            "code":  "COFFEE_LIFE",
+                            "pattern":  "MMH-MMH-MMM-HMM-MMM"
+                        },
+                        {
+                            "code":  "MILKTEA_GUILT",
+                            "pattern":  "MML-HML-MLM-MML-MLM"
+                        },
+                        {
+                            "code":  "EARLY_SLEEP",
+                            "pattern":  "LMM-LMM-LMM-LLL-LMM"
+                        },
+                        {
+                            "code":  "NIGHT_OWL",
+                            "pattern":  "HML-HMM-MMH-HML-MLH"
+                        },
+                        {
+                            "code":  "ALARM_NEGO",
+                            "pattern":  "LLH-LMH-LMH-LLM-LHM"
+                        },
+                        {
+                            "code":  "THREE_MIN",
+                            "pattern":  "MHL-MLH-MMM-LMH-MLH"
+                        },
+                        {
+                            "code":  "LATE_BLOOM",
+                            "pattern":  "MHH-HMH-HMH-HMH-MHH"
+                        },
+                        {
+                            "code":  "PERFECT_DELAY",
+                            "pattern":  "MHM-HML-MHH-MHM-MHM"
+                        },
+                        {
+                            "code":  "DEADLINE_GOD",
+                            "pattern":  "HHH-HHM-HHH-HHH-HMH"
+                        },
+                        {
+                            "code":  "LOVE_BRAIN",
+                            "pattern":  "MML-LHH-MMH-LML-MLH"
+                        },
+                        {
+                            "code":  "CLEAR_LOVE",
+                            "pattern":  "MMH-MHH-HMH-MMH-MMH"
+                        },
+                        {
+                            "code":  "EX_ARCHIVE",
+                            "pattern":  "MHM-LMH-MMM-MMM-MMH"
+                        },
+                        {
+                            "code":  "SOCIAL_BATT",
+                            "pattern":  "MML-MMH-MHM-LMM-HMH"
+                        },
+                        {
+                            "code":  "I_PRETEND_E",
+                            "pattern":  "LMM-MLM-MML-LLM-MMH"
+                        },
+                        {
+                            "code":  "E_LOW_BATT",
+                            "pattern":  "HMM-HMH-HML-HMM-HMH"
+                        },
+                        {
+                            "code":  "STABLE_CORE",
+                            "pattern":  "MMH-MMM-MMM-MMM-MMM"
+                        },
+                        {
+                            "code":  "STRESS_COMIC",
+                            "pattern":  "HML-MMM-HMH-HMM-HMH"
+                        },
+                        {
+                            "code":  "REVERSE_BOAST",
+                            "pattern":  "HMH-HMH-MHH-MHM-HHH"
+                        },
+                        {
+                            "code":  "META_TEST",
+                            "pattern":  "HHH-HHH-HHH-HHH-HHH"
+                        }
+                    ],
+    "drunkTriggerQuestionId":  "meta_gate_q2",
+    "specialQuestionFlow":  {
+                                "entryQuestionId":  "meta_gate_q1",
+                                "entryPlacement":  "random_gap",
+                                "followUpQuestionId":  "meta_gate_q2",
+                                "followUpWhenValue":  4
+                            },
+    "resultCopy":  {
+                       "defaultModeKicker":  "你最爱做的测试",
+                       "defaultBadgeTemplate":  "匹配度 {similarity}% · 命中 {exact}/{dimensionCount} 维",
+                       "defaultSub":  "这是当前作答模式下你最偏好的测试题材。",
+                       "specialNote":  "本结果由隐藏路线触发，仅供娱乐。",
+                       "normalNote":  "本测试仅用于题材偏好娱乐，不用于人格定论。"
+                   },
+    "overrides":  [
+                      {
+                          "id":  "drunk",
+                          "resultCode":  "META_TEST",
+                          "modeKicker":  "元题材触发",
+                          "badge":  "匹配度 100% · 本体上头已确认",
+                          "sub":  "你最爱的不是某一题材，而是测试本体这件事。"
+                      },
+                      {
+                          "id":  "fallback_hhhh",
+                          "resultCode":  "MBTI_LOOP",
+                          "modeKicker":  "口味分散兜底",
+                          "badgeTemplate":  "常规匹配最高仅 {similarity}%",
+                          "sub":  "你的偏好覆盖面较广，系统将你归入高频复测位。"
+                      }
+                  ]
+}
